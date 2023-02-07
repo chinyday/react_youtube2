@@ -1,6 +1,7 @@
 import React from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useParams } from 'react-router-dom';
+import axios from 'axios';
 import VideoCard from '../components/VideoCard';
 
 export default function Videos() {
@@ -10,9 +11,8 @@ export default function Videos() {
     isLoading,
     error,
     data: videos,
-  } = useQuery(['videos', keyword], async () => fetch(`/videos/${keyword ? 'search' : 'popular'}.json`)
-    .then((res) => res.json())
-    .then((data) => data.items));
+  } = useQuery(['videos', keyword], async () => axios.get(`/videos/${keyword ? 'search' : 'popular'}.json`)
+    .then((res) => res.data.items));
 
   // useQuery를 통해서 관심있는 변수를 가져올거야,
   // 캐시키를 가지고 ~~  전체적인 'videos'안에 keyword별로 캐시가 되도록 가지고 온다
