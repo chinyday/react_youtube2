@@ -30,5 +30,7 @@ module.exports = {
     // react eslint rules off
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/prop-types': 'off',
+    'import/prefer-default-export': 'off',
+    'no-useless-constructor': 'off',
   },
 };
