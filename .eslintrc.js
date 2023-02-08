@@ -32,5 +32,7 @@ module.exports = {
     'react/prop-types': 'off',
     'import/prefer-default-export': 'off',
     'no-useless-constructor': 'off',
+    'react/jsx-no-constructed-context-values': 'off',
+    'react-hooks/exhaustive-deps': 'off',
   },
 };
