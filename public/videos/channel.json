@@ -1,6 +1,6 @@
 {
   "kind": "youtube#channelListResponse",
-  "etag": "XWz2y8CmiajI3l95iq7MLK_yFCY",
+  "etag": "Uy7xTYrZ2-XktxN6h-lckq6eQcY",
   "pageInfo": {
       "totalResults": 1,
       "resultsPerPage": 5
@@ -8,33 +8,33 @@
   "items": [
       {
           "kind": "youtube#channel",
-          "etag": "71fXfSvFIaj7Jn9nAdsucPT6u1c",
-          "id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+          "etag": "Ym1t3IMFx5_yAuWhSzPB6rz3kVE",
+          "id": "UC0ZV6M2THA81QT9hrVWJG3A",
           "snippet": {
-              "title": "Google Developers",
-              "description": "The Google Developers channel features talks from events, educational series, best practices, tips, and the latest updates across our products and platforms.\n\nSubscribe to Google Developers → https://goo.gle/developers\n",
-              "customUrl": "@googledevelopers",
-              "publishedAt": "2007-08-23T00:34:43Z",
+              "title": "Apex Legends",
+              "description": "Welcome to the official Apex Legends™ YouTube channel, where you can find all the latest trailers, developer diaries, and up-to-date info on Apex Legends. \n\nIn here, Legends change the game.\n\nApex Legends is a free-to-play battle royale game where legendary characters battle for glory, fame, and fortune on the fringes of the Frontier. Play for free now on Xbox, PlayStation, PC, and Nintendo Switch: http://x.ea.com/56336\n\nLooking for more Apex competitive content? Visit youtube.com/playapexcompete for all the latest!\n\nFacebook: http://www.facebook.com/playapex\nTwitter: https://twitter.com/playapex\nInstagram: https://www.instagram.com/playapex/\n\nVisit www.playapexshop.com to dress like a Legend with the latest Apex Legends merchandise\n",
+              "customUrl": "@playapex",
+              "publishedAt": "2019-01-24T18:20:16Z",
               "thumbnails": {
                   "default": {
-                      "url": "https://yt3.ggpht.com/ytc/AL5GRJUFC8wq-fwjeJR5HoLNc31hurtQKbi1ayR2i8gFJK8=s88-c-k-c0x00ffffff-no-rj",
+                      "url": "https://yt3.ggpht.com/ytc/AL5GRJVmfHZ-jsERCLRD3UuIB0rEZwBidX6mQxCW4biS=s88-c-k-c0x00ffffff-no-rj",
                       "width": 88,
                       "height": 88
                   },
                   "medium": {
-                      "url": "https://yt3.ggpht.com/ytc/AL5GRJUFC8wq-fwjeJR5HoLNc31hurtQKbi1ayR2i8gFJK8=s240-c-k-c0x00ffffff-no-rj",
+                      "url": "https://yt3.ggpht.com/ytc/AL5GRJVmfHZ-jsERCLRD3UuIB0rEZwBidX6mQxCW4biS=s240-c-k-c0x00ffffff-no-rj",
                       "width": 240,
                       "height": 240
                   },
                   "high": {
-                      "url": "https://yt3.ggpht.com/ytc/AL5GRJUFC8wq-fwjeJR5HoLNc31hurtQKbi1ayR2i8gFJK8=s800-c-k-c0x00ffffff-no-rj",
+                      "url": "https://yt3.ggpht.com/ytc/AL5GRJVmfHZ-jsERCLRD3UuIB0rEZwBidX6mQxCW4biS=s800-c-k-c0x00ffffff-no-rj",
                       "width": 800,
                       "height": 800
                   }
               },
               "localized": {
-                  "title": "Google Developers",
-                  "description": "The Google Developers channel features talks from events, educational series, best practices, tips, and the latest updates across our products and platforms.\n\nSubscribe to Google Developers → https://goo.gle/developers\n"
+                  "title": "Apex Legends",
+                  "description": "Welcome to the official Apex Legends™ YouTube channel, where you can find all the latest trailers, developer diaries, and up-to-date info on Apex Legends. \n\nIn here, Legends change the game.\n\nApex Legends is a free-to-play battle royale game where legendary characters battle for glory, fame, and fortune on the fringes of the Frontier. Play for free now on Xbox, PlayStation, PC, and Nintendo Switch: http://x.ea.com/56336\n\nLooking for more Apex competitive content? Visit youtube.com/playapexcompete for all the latest!\n\nFacebook: http://www.facebook.com/playapex\nTwitter: https://twitter.com/playapex\nInstagram: https://www.instagram.com/playapex/\n\nVisit www.playapexshop.com to dress like a Legend with the latest Apex Legends merchandise\n"
               },
               "country": "US"
           }
