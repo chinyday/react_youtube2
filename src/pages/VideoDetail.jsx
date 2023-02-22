@@ -15,10 +15,11 @@ export default function VideoDetail() {
     <section className="flex flex-col lg:flex-row">
       <article className="basis-4/6">
         <iframe
+          className="w-full aspect-video"
           id="player"
           type="text/html"
-          width="100%"
-          height="640"
+          // width=""
+          // height="640"
           src={`https://www.youtube.com/embed/${video.id}`}
           title={title}
         />

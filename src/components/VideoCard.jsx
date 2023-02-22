@@ -11,9 +11,9 @@ export default function VideoCard({ video, type }) {
   const isList = type === 'list';
 
   return (
-    <li className={isList && 'flex mr-5 ml-5 mb-5'} role="presentation" onClick={() => { navigate(`videos/watch/${video.id}`, { state: { video } }); }}>
+    <li className={isList && 'xl:flex mr-5 ml-5 mb-5'} role="presentation" onClick={() => { navigate(`/videos/watch/${video.id}`, { state: { video } }); }}>
       <img
-        className={isList ? 'w-60 mr-2' : 'w-full'}
+        className={isList ? 'sm:w-full xl:w-60 mr-2' : 'w-full'}
         src={thumbnails.medium.url}
         alt={title}
       />
