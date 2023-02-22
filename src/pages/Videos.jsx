@@ -1,6 +1,6 @@
 import React from 'react';
-import { useQuery } from '@tanstack/react-query';
 import { useParams } from 'react-router-dom';
+import { useQuery } from '@tanstack/react-query';
 import VideoCard from '../components/VideoCard';
 import { useYoutubeApi } from '../context/YoutubeContext';
 
@@ -12,7 +12,9 @@ export default function Videos() {
     isLoading,
     error,
     data: videos,
-  } = useQuery(['videos', keyword], () => youtube.search(keyword));
+  } = useQuery(['videos', keyword], () => youtube.search(keyword), {
+    staleTime: 1000 * 60 * 1,
+  });
 
   // useQuery를 통해서 관심있는 변수를 가져올거야,
   // 캐시키를 가지고 ~~  전체적인 'videos'안에 keyword별로 캐시가 되도록 가지고 온다
